@@ -44,9 +44,9 @@ This paper proposes a bilingual (Chinese-English) face image editing model calle
 
 ```bash
     python main.py \
-    --logdir 'outputs/512_text' \
-    --base 'configs/512_text.yaml' \
-    -t  --gpus 0,1,2,3,
+    --logdir 'outputs/ckpt' \
+    --base '512_text.yaml' \
+    -t  --gpus 0
  ```
 
 ### Editing
