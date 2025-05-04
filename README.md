@@ -40,6 +40,22 @@ This paper proposes a bilingual (Chinese-English) face image editing model calle
             └──captions_hq_beard_and_age_2022-08-19.json
     ```
 
+### Training
+
+```bash
+    python main.py \
+    --logdir 'outputs/512_text' \
+    --base 'configs/512_text.yaml' \
+    -t  --gpus 0,1,2,3,
+    ```
+
+### Editing
+
+```bash
+    python editing/zyd_edit_text.py
+    ```
+
+
 
 
 
